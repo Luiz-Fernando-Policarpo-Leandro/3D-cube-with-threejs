@@ -124,4 +124,4 @@ renderer.setSize(window.innerWidth, window.innerHeight);
 ---
 
 ## Objetivo Final
-Apresentar um projeto de 
+Apresentar um projeto de "Criar uma aplicação web que exiba um cubo em um ambiente 3D e permita a manipulação da câmera utilizando o mouse. Utilizando a biblioteca threejs"

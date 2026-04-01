@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cubo 3D Interativo - Three.js</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <section>
+            <label for="cube-color-input">Cor do cubo</label>
+                <input type="color" value="#0A904B" id="cube-color-input" name="cube-color" value="#ff0000"> 
+            <label>Party Mode</label>
+            <input type="checkbox" id="party-Active">
+        </section>
+    </header>
+
+
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+                "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+            }
+        }
+    </script>
+
+    <script type="module" src="main.js"></script>
+</body>
+</html>
